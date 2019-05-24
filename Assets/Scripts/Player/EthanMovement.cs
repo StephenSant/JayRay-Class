@@ -6,6 +6,7 @@ public class EthanMovement : MonoBehaviour
 {
     public Animator animator;
     public float walkSpeed = 1, runSpeed = 2;
+    public bool isCrouching = false;
 
     Vector2 movement;
 
@@ -28,6 +29,15 @@ public class EthanMovement : MonoBehaviour
         }
         animator.SetFloat("Horizontal", movement.x); 
         animator.SetFloat("Vertical", movement.y); 
-        animator.SetFloat("Speed", movement.y); 
+        animator.SetFloat("Speed", movement.y);
+
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            animator.SetBool("Crouch", true);
+        }
+        else
+        {
+            animator.SetBool("Crouch", false);
+        }
     }
 }
