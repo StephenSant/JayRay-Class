@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f014cbbca57ab47ac926a642f75a01, type: 3}
+  m_Name: Dragon
+  m_EditorClassIdentifier: 
+  cardType: {fileID: 0}
+  properties:
+  - Property: Name
+    stringValue: Dragon
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 33254ee2c96921146b90e8b7d257e131, type: 2}
+  - Property: Image
+    stringValue: 
+    intValue: 0
+    sprite: {fileID: 21300000, guid: 4d6817407fc74e74688cb65d2c6a33cf, type: 3}
+    element: {fileID: 11400000, guid: 6dd90ccee02cf3f4faf18462f89b187b, type: 2}
+  - Property: Attack
+    stringValue: 
+    intValue: 10
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 4c200163209b1ef40b4b2596250a106d, type: 2}
+  - Property: Defence
+    stringValue: 
+    intValue: 5
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 899c6f990566ebc4aacedb227ec7893b, type: 2}
+  - Property: Cost
+    stringValue: 
+    intValue: 7
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 37d1f3ae688c22f41b8ccf5b4885a5b0, type: 2}
+  - Property: Description
+    stringValue: You know, a dragon. Big. Flies. Breaths fire.
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: fb66a8e3817d3dd4bbf5fc52da033d78, type: 2}
